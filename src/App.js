@@ -15,7 +15,7 @@ function App() {
   const audioBufferRef = useRef([]); // Buffer to assemble audio deltas
 
   useEffect(() => {
-    // Initialize WebSocket connection to the backend server on port 4000
+    // Initialize WebSocket connection to the backend server on port 4000s
     const backendUrl = 'ws://localhost:4000/ws-client'; // Ensure your backend server listens on this path
     const ws = new WebSocket(backendUrl);
 
